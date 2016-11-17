@@ -1,0 +1,40 @@
+body{
+	text-align: center;
+	padding-top: 120px;
+	background-image: 
+		url("../images/tusi.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+	font-family: Helvetica;
+}
+img{
+	max-width: 70px;
+}
+h1{
+	color: #fce1ba;
+}
+#slogan{
+	font-size: 22px;
+	font-family: 'Abhaya Libre';
+	font-style: italic;
+}
+#heart{
+	color: red;	
+}
+hr{
+	width: 300px;
+}
+ul{
+	text-align: center;
+	list-style-type: none;
+}
+
+img {
+	width: 50%;
+}
+footer{
+	text-align: center;
+	font-size: 14px;
+	position: absolute;bottom: 0;width: 100%;
+}
