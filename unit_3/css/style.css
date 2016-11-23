@@ -8,33 +8,89 @@ body{
 	color: #fff;
 	font-family: Helvetica;
 }
+
 img{
 	max-width: 70px;
 }
+
 h1{
-	color: #fce1ba;
+	font-family: 'Eczar', serif;
+	font-size: 72px; 
+	color: black;
 }
+
 #slogan{
-	font-size: 22px;
-	font-family: 'Abhaya Libre';
-	font-style: italic;
+	position: 50%;
+	color: black;
+	font-size: 27px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+
 }
+p{
+	position: 50%;
+	color: black;
+	font-size: 19px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+
+}
+
 #heart{
 	color: red;	
 }
+
 hr{
 	width: 300px;
 }
-ul{
-	text-align: center;
+
+
+#navcontainer ul{
+	margin: 0;
+	padding: 0;
 	list-style-type: none;
+	font-size: 21px;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+#navcontainer ul li { display: inline; }
+#navcontainer ul li a { 
+	text-decoration: none;
+}
+.navcontainer{
+	color: black;
 }
 
 img {
 	width: 50%;
 }
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
 footer{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	color: black;	
 	text-align: center;
-	font-size: 14px;
+	font-size: 18px;
 	position: absolute;bottom: 0;width: 100%;
 }
