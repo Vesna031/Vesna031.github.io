@@ -1,0 +1,107 @@
+header{
+	background-color: #FFED74;
+	border: 1px none;
+	padding: 10px;
+}
+.wrapper{
+	background-color:#FFE2B8; 
+}
+#logo{
+	padding: 0;
+	border: none;
+	display: block;
+	
+}
+.buttons{
+    color: #223656;
+    width: 150px;
+    height: 20px;
+    margin: 13px;
+    text-align: center;
+    display: table-cell;
+    border: none;
+    background-color: #FFED74; 
+    font-family: Helvetica;
+    font-weight: 500;
+
+}
+#slogan{
+	font-family: Helvetica;
+	color: white;
+	font-size: 25px;
+}
+
+nav{
+	background-color: #223656;
+    border: 1px none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+article{
+	text-align: center;
+	padding-top: 100px;
+	background-image: 
+		url("../images/tusi.jpg");
+	background-size: cover;
+	border: 1px white;
+	padding: 300px;
+}
+h1{
+	font: Helvetica, 800%;
+	font-size: 76px;
+	padding: 7px 7px;
+	margin: 70px 7px;
+	margin-bottom: 0;
+}
+p{
+	font-size: 23px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+aside{
+	margin: 10px;
+	background-color: #FFC675;
+	border: .2px  solid black;
+	font-size: 9px;
+}
+
+footer{
+	background-color: #FF957E;
+	border: 1px none;
+	padding: 20px;
+	text-align: center;
+	font-family: Helvetica;
+	font-weight: 200;
+}
+#first{
+	text-align: justify;
+	padding: 10px;
+	font-size: 15px;
+}
+#second{
+	text-align: justify;
+	padding: 10px;
+	font-size: 15px;
+}
+#third{
+	text-align: justify;
+	padding: 10px;
+	font-size: 15px;
+	}
+#footer{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+div{
+	border: 1px black solid;
+	padding: 20px;
+}
+section{
+	display: flex;
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+	font-family: Helvetica;
+	font-weight: 200;
+}
