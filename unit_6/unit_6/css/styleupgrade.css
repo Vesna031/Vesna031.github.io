@@ -48,6 +48,9 @@ nav a {
 
 /*main */
 
+h1{
+
+	}
 h3{
 	font-size: 24px;
 	text-align: center;
@@ -88,7 +91,7 @@ h3{
 	text-align: center;
 }
 #splash {
-	background:purple;
+	background-image: url('fence.jpg');
 	color:#fff;
 	height:100vh;
 	padding:10em 0 0;
@@ -100,4 +103,6 @@ h3{
 	height:0;
 	content:"";
 }
-
+.cellphone{
+	font-size: 18px;
+}
