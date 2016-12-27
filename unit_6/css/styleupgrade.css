@@ -9,21 +9,26 @@ body{
 	line-height:1.25;
 }
 
-/*header */
+/*header */ 
 
-
-header{
-	text-align: center;
-}
 a{
 	font-size: 27px;
+	text-align: center;
 	text-decoration: none;
-	font-variant: small-caps;
-    color: inherit;
+	color: inherit;
     cursor: pointer;
 }
+
 nav{
 	float: right;
+}
+#bgpic{
+	width: 100%;
+	height: auto;
+}
+#wrapper{
+	background-image: url('images/fence.jpg');
+	width: 1024px;
 }
 .site_nav_item{
 	display: inline-block;
@@ -42,18 +47,34 @@ nav a {
 	float:left;
 	vertical-align: middle;
 	width: 6rem;
-	margin: 0 0.75rem 0.75rem;
+	margin: 0.75rem 0.75rem;
 }
 
 
 /*main */
-
+h1,h2,p{ text-align: center;
+}
 h1{
-
-	}
+	font-family: 'Petit Formal Script', cursive;
+	font-weight: 900;
+    margin: auto;
+}
+p{
+	background-image: u
+}
+div{
+	text-align: center;
+}
+h2{
+	height: 50vh;
+}
 h3{
 	font-size: 24px;
 	text-align: center;
+}
+.cta{
+	padding: 10 10;
+	display: block;
 }
 .home_row{
 	padding: 0 9px;
@@ -86,13 +107,14 @@ h3{
 
 
 .site_footer{
+
 	font-size: 2em;
 	margin: 3rem 0 0;
 	text-align: center;
 }
 #splash {
-	background-image: url('fence.jpg');
-	color:#fff;
+	background: linear-gradient(to bottom right, red, yellow);
+	color:#000;
 	height:100vh;
 	padding:10em 0 0;
 }
