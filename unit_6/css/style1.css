@@ -8,7 +8,13 @@ body{
 	font-weight: 200;
 	line-height:1.25;
 }
-
+#wrapper{
+	width:auto;
+	height:100%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	overflow:hidden;
+}
 /*header */ 
 
 a{
@@ -19,17 +25,11 @@ a{
     cursor: pointer;
 }
 
+
 nav{
 	float: right;
 }
-#bgpic{
-	width: 100%;
-	height: auto;
-}
-#wrapper{
-	background-image: url('images/fence.jpg');
-	width: 1024px;
-}
+
 .site_nav_item{
 	display: inline-block;
     vertical-align: middle;
@@ -47,11 +47,11 @@ nav a {
 	float:left;
 	vertical-align: middle;
 	width: 6rem;
-	margin: 0.75rem 0.75rem;
+	margin: 1rem 10rem;
 }
 
-
 /*main */
+
 h1,h2,p{ text-align: center;
 }
 h1{
@@ -73,19 +73,23 @@ h3{
 	text-align: center;
 }
 .cta{
-	padding: 10 10;
-	display: block;
+
+	
+    border: white;
+    border-radius: 4px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
 }
+
 .home_row{
 	padding: 0 9px;
 	display: block;
 	box-sizing: border-box;
 }
-.picture_el{
-	display: block;
-	box-sizing: border-box;
-}
-
 .site_nav_subtitle{
 	font-size: 16px;
 }
@@ -113,10 +117,16 @@ h3{
 	text-align: center;
 }
 #splash {
-	background: linear-gradient(to bottom right, red, yellow);
-	color:#000;
+	background-image: url(../images/bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color:#fff;
 	height:100vh;
 	padding:10em 0 0;
+}
+.footer_logo {
+	width: 50px;
+	display: inline-block;
 }
 .clearfix:after {
 	clear:both;
@@ -125,6 +135,5 @@ h3{
 	height:0;
 	content:"";
 }
-.cellphone{
-	font-size: 18px;
-}
+
+
