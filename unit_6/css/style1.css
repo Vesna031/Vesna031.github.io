@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 body {
     color: rgba(0, 0, 0, .87);
@@ -12,16 +11,12 @@ body {
     font-weight: 200;
     line-height: 1.25;
 }
-#wrapper {
-    width: auto;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-}
+
 
 /* ---------->>> HEADER <<<-----------*/
-
+div{
+    display: block;
+}
 a {
     color: white;
     font-size: 30px;
@@ -29,29 +24,21 @@ a {
     text-decoration: none;
     cursor: pointer;
 }
-nav {
-    margin: 25px 300px 0 0;
-    float: right;
+.nav-header {
+    margin: 0 auto;
+    float: left;
     color: white;
 }
-.site_nav_item {
-    display: inline-block;
-    vertical-align: middle;
-    position: relative;
-    text-align: center;
-}
+
 .site_nav_subtitle {
     display: block;
+}
+#logo{
+    padding: 0;
 }
 nav a {
     display: inline-block;
     padding: 0.75em 1.25em;
-}
-#logo {
-    float: left;
-    vertical-align: middle;
-    width: 6rem;
-    margin: 25px 0 16px 300px;
 }
 .site_nav_subtitle {
     font-size: 16px;
@@ -60,20 +47,15 @@ nav a {
     margin: 1rem 2rem 0;
     border-bottom: 1px solid #bbbbbc;
 }
+.slider{
+    clear: both;
+}
 
 /* ---------->>> MAIN <<<-----------*/
 
-div {
-    margin-top: 200px;
-    padding: 40px 40px;
-    text-align: center;
-}
 
 /*---section class splash ---*/
 
-#div_splash {
-    margin-top: 200px;
-}
 button {
     background-color: rgba( 255, 255, 255, 0.2);
     border: white;
@@ -90,106 +72,54 @@ button {
     font-style: normal;
 }
 .splash {
-    background-image: url(../images/bg_1.jpg);
+    background-image: url(../images/bg_2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
     height: 100vh;
-    padding: 10em 0 0;
 }
 h1 {
     font-family: 'Petit Formal Script';
-    font-size: 28px;
-    margin: auto;
-    line-height: 50px;
+}
+h2, h4, h1 {
+    text-align: center;
 }
 
 /*---section class about ---*/
 
 
-.about {
-}
-h2 {
-    color: #7a475a;
-    font-size: 32px;
-    text-align: center;
-}
-p {
-    
-   
-    font-size: 20px;
-   
-}
-h3 {
-    color: #483b41;
-    font-size: 24px;
-    text-align: center;
-}
-h4 {
-    text-align: center;
-    font-size: 16px;
-    font-weight: 300;
-}
-#centerh1{
-	margin: 10px auto;
+
+.3col{
+    font-size: 25px;
+    width: 33.33%;
 }
 
-.section-about{
-	margin: 0 auto;
-	overflow: hidden;
+.container{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.description {
-    background-color:pink;
-    margin-top: 80px;
-    padding: 10px;
-    float: left;
-    width: 360px;
-    
-    position: relative;
-}
-.img_circle {
-	width: 300px;
-    display: inline-block;
-    vertical-align: middle;
-    margin:auto;
-}
-article{
-	width: 33%;
-    margin: 0 auto 50px;
-    background: white;
-}
-.text{
-	float: left;
-}
-.columns{
-	text-align: left;
-}
+
+.row{
+    background-color: red;
+    display: block;
+   }
+
 
 /*---section class map ---*/
 
-.bg_map{
-	background-repeat: no-repeat;
-	width: 100%;
-	height: auto;
-	opacity: 0.3;
-}
 
+.row::before, .row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
 
 
 /* ---------->>> FOOTER <<<-----------*/
 
 footer {
-    background-color: #b0aeb4;
+    background-color: blue;
 }
-.footer_item {
-    display: inline-block;
-    padding-bottom: 0;
-    margin-top: 0;
-}
-.site_footer {
-    font-size: 2em;
-    text-align: center;
-}
-.footer_logo {
-    width: 50px;
-}
+
+

@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+	font-family: "Avenir", "Avenir Next", "Lato", sans-serif;
+	color: #483b41;
+}
+
+.splash {
+    background-image: url(../images/bg_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    height: 100vh;
+    padding: 10em 0 0;
+}	
