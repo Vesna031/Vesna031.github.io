@@ -10,6 +10,7 @@ body {
     color: #483b41;
     font-weight: 200;
     line-height: 1.25;
+    font-size: 15px;
 }
 
 
@@ -19,38 +20,67 @@ div{
 }
 a {
     color: white;
-    font-size: 30px;
+    font-size: 2em;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
 }
-.nav-header {
+.pic{
+    border-radius: 50%;
+    padding: 1em 0em;
     margin: 0 auto;
-    float: left;
+    display: block;
+}
+.nav-header {
+    text-align: center;
+    margin: 0 auto;
     color: white;
 }
-
+#social{
+    background-image:url(../images/map.jpg);
+    height: 350px;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding: 2em 0em;
+}
 .site_nav_subtitle {
     display: block;
 }
 #logo{
     padding: 0;
+    width: 50px;
+    vertical-align: bottom;
+}
+.site_nav_link:hover, .myname:hover {
+    color: #ad8591;
 }
 nav a {
     display: inline-block;
     padding: 0.75em 1.25em;
 }
 .site_nav_subtitle {
-    font-size: 16px;
+    font-size: 1em;
 }
 .site_nav_underline {
     margin: 1rem 2rem 0;
     border-bottom: 1px solid #bbbbbc;
 }
+hr{
+    width: 90%;
+    margin: 0 auto;
+}
 .slider{
     clear: both;
+    height: 100vh;
+    position: relative;
 }
 
+.verticalAlign {
+    top:20%;
+    transform: translateY(50%);
+    position: relative;
+}
 /* ---------->>> MAIN <<<-----------*/
 
 
@@ -62,10 +92,10 @@ button {
     border-radius: 4px;
     color: white;
     padding: 10px;
-    margin: 40px 32px;
+    margin:2em auto;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display:block;
     font-size: 32px;
     cursor: pointer;
     font-family: "Avenir", "Avenir Next", "Lato", sans-serif;
@@ -84,42 +114,83 @@ h1 {
 h2, h4, h1 {
     text-align: center;
 }
+h2{
+    margin-top: 30px;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+h3{
+    letter-spacing: -0.3px;
+    font-variant: small-caps;
+    font-weight: 400;
+}
+
 
 /*---section class about ---*/
 
-
-
-.3col{
-    font-size: 25px;
+.threecol{
+    text-align: justify;
+    margin-top: 50px;
+    line-height: 150%;
+    font-size: 22px;
     width: 33.33%;
+    float:left;
 }
-
+.middlecol{
+    margin-top: 20px;
+}
 .container{
-    width: 960px;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .row{
-    background-color: red;
+    height: 500px;
     display: block;
    }
-
+.about_part, .contact{
+        margin: 40px;
+        text-align: center;
+}
 
 /*---section class map ---*/
 
-
+.cellphone, .email{
+    color: #483b41;;
+}
 .row::before, .row::after{
     content: "";
     clear: both;
     display: table;
 }
 
-
+.group {
+    position: relative;
+}
+.phone-icon, .letter-icon{
+    transform: translateY(20%);
+}
+.phone, .email_info, .social_links{
+    padding: 5px 10px;
+}
+.social_links{
+    margin-top: 40px;
+}
+.social_icon{
+    padding: 0 10px;
+}
 /* ---------->>> FOOTER <<<-----------*/
 
-footer {
-    background-color: blue;
+.site_footer{
+    background-color: white;
+    text-align: center;
+    color: #483b41;
+}
+.myname{
+    color: #483b41;
+    font-size: 20px;
+    padding-left: 5px;
 }
 
 

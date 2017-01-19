@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: rgba(0, 0, 0, .87);
+    font-family: "Avenir", "Avenir Next", "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #483b41;
+    font-weight: 200;
+    line-height: 1.25;
+    font-size: 16px;
+}
+
+
+/* ---------->>> HEADER <<<-----------*/
+div{
+    display: block;
+}
+a {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.pic{
+    border-radius: 50%;
+    padding: 1em 0em;
+    margin: 0 auto;
+    display: block;
+}
+.nav-header {
+	font-size: 1em;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+}
+#social{
+    background-image:url(../images/map.jpg);
+    height: 22em;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding: 2em 0em;
+}
+#logo{
+    padding: 0;
+    width: 2em;
+    vertical-align: bottom;
+}
+.site_nav_link:hover, .myname:hover {
+    color: #ad8591;
+}
+nav a {
+    display: inline-block;
+    padding: 0.75em 1.25em;
+    -webkit-transition: max-height 0.4s;
+    -ms-transition: max-height 0.4s;
+    -moz-transition: max-height 0.4s;
+    -o-transition: max-height 0.4s;
+    transition: max-height 0.4s;
+}
+.site_nav_subtitle {
+    font-size: 0.65em;
+    display: block;
+}
+.site_nav_underline {
+    margin: 1rem 2rem 0;
+    border-bottom: 1px solid #bbbbbc;
+}
+hr{
+    width: 65%;
+    margin: 0 auto;
+}
+.slider{
+    clear: both;
+    height: 100vh;
+    position: relative;
+}
+
+.verticalAlign {
+    top:20%;
+    transform: translateY(50%);
+    position: relative;
+}
+/* ---------->>> MAIN <<<-----------*/
+
+
+/*---section class splash ---*/
+
+button {
+    background-color: rgba( 255, 255, 255, 0.3);
+    border: white solid 1px;
+    border-radius: 4px;
+    color: white;
+    padding: 0.7em;
+    margin:2em auto;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    font-size: 1.7em;
+    cursor: pointer;
+    font-family: 'Petit Formal Script', cursive;
+}
+.splash {
+    background-image: url(../images/bg_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+    height: 100vh;
+}
+h1, .site_nav_subtitle {
+    font-family: 'Petit Formal Script', cursive;
+}
+h1{
+	font-size: 2em;
+	line-height: 1.75em;
+}
+h2, h4, h1 {
+    text-align: center;
+}
+h2{
+    margin-top: 2em;
+    letter-spacing: 0.05em;
+    font-size: 2em;
+}
+h3{
+    letter-spacing: -0.3px;
+    font-variant: small-caps;
+    font-weight: 400;
+}
+
+
+/*---section class about ---*/
+
+.threecol{
+    text-align: justify;
+    margin-top: 1.5em;
+    line-height: 150%;
+    font-size: 1.3em;
+    width: 33.33%;
+    float:left;
+}
+.middlecol{
+    margin-top: 0;
+}
+.container{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row{
+    height: 33.33%;
+    display: block;
+   }
+.about_part, .contact{
+        margin: 2.25em;
+        text-align: center;
+}
+
+/*---section class map ---*/
+
+.cellphone, .email{
+    color: #483b41;;
+}
+.row::before, .row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.group {
+    position: relative;
+}
+.phone-icon, .letter-icon{
+    transform: translateY(20%);
+}
+.phone, .email_info, .social_links{
+    padding: .25em .75em;
+}
+.social_links{
+    margin-top: 2.25em;
+}
+.social_icon{
+    padding: 0 .5em;
+}
+#toggle{
+	display: none;
+}
+input[type="checkbox" i] {
+    -webkit-appearance: checkbox;
+    box-sizing: border-box;
+}
+input[type="radio" i], input[type="checkbox" i] {
+    background-color: initial;
+    margin: 3px 0.5ex;
+    padding: initial;
+    border: initial;
+}
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    user-select: text;
+    cursor: auto;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+input{
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 11px BlinkMacSystemFont;
+}
+input{
+    -webkit-writing-mode: horizontal-tb;
+}
+.fa{
+	display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fa-navicon:before, .fa-reorder:before, .fa-bars:before{
+	content: "\f0c9";
+}
+label{
+    display: none;
+    margin: auto;
+    padding: 5% 0 2% 0;
+}
+/* ---------->>> FOOTER <<<-----------*/
+
+.site_footer{
+    background-color: white;
+    text-align: center;
+    color: #483b41;
+}
+.myname{
+    color: #483b41;
+    font-size: 1.15em;
+    padding-left: .35em;
+}
+
+@media (max-width : 1169px) {
+  body {
+    font-size: 1em;
+  }
+  .nav-header {
+	font-size: .75em;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+	}
+	nav a {
+    display: inline-block;
+    padding: 0.5em .75em;
+}	
+	h1{
+	font-size: 1.3em;
+	line-height: 1.25em;
+}
+button {
+    background-color: rgba( 255, 255, 255, 0.3);
+    border: white solid 1px;
+    border-radius: 4px;
+    color: white;
+    padding: 0.7em;
+    margin:2em auto;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    font-size: 1.2em;
+    cursor: pointer;
+    font-family: 'Petit Formal Script', cursive;
+}
+.threecol{
+    text-align: justify;
+    margin: 1.5em auto 0;
+    line-height: 150%;
+    font-size: 1.3em;
+    width: 90%;
+    float:none;
+}
+.row{
+	margin: 0 auto;
+    height: 33.33%;
+    display: block;
+   }
+}
+@media (max-width : 650px) {
+	 body {
+    font-size: .75em;
+  }
+  .maxsix{
+  	visibility: hidden;
+  }
+}
+  
