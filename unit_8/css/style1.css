@@ -39,7 +39,7 @@ a {
 }
 #social{
     background-image:url(../images/map.jpg);
-    height: 22em;
+    height: relative;
     background-size: cover;
     background-position: center center;
     text-align: center;
@@ -71,7 +71,7 @@ nav a {
     border-bottom: 1px solid #bbbbbc;
 }
 hr{
-    width: 65%;
+    width: 55%;
     margin: 0 auto;
 }
 .slider{
@@ -175,7 +175,11 @@ h3{
 	visibility:hidden;
 }
 .group {
+    display: block;
+    margin: 0 auto;
     position: relative;
+    width: 65%
+    
 }
 .phone-icon, .letter-icon{
     transform: translateY(20%);
@@ -189,63 +193,7 @@ h3{
 .social_icon{
     padding: 0 .5em;
 }
-#toggle{
-	display: none;
-}
-input[type="checkbox" i] {
-    -webkit-appearance: checkbox;
-    box-sizing: border-box;
-}
-input[type="radio" i], input[type="checkbox" i] {
-    background-color: initial;
-    margin: 3px 0.5ex;
-    padding: initial;
-    border: initial;
-}
-input {
-    -webkit-appearance: textfield;
-    background-color: white;
-    -webkit-rtl-ordering: logical;
-    user-select: text;
-    cursor: auto;
-    padding: 1px;
-    border-width: 2px;
-    border-style: inset;
-    border-color: initial;
-    border-image: initial;
-}
-input{
-    text-rendering: auto;
-    color: initial;
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-transform: none;
-    text-indent: 0px;
-    text-shadow: none;
-    display: inline-block;
-    text-align: start;
-    margin: 0em 0em 0em 0em;
-    font: 11px BlinkMacSystemFont;
-}
-input{
-    -webkit-writing-mode: horizontal-tb;
-}
-.fa{
-	display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-.fa-navicon:before, .fa-reorder:before, .fa-bars:before{
-	content: "\f0c9";
-}
-label{
-    display: none;
-    margin: auto;
-    padding: 5% 0 2% 0;
-}
+
 /* ---------->>> FOOTER <<<-----------*/
 
 .site_footer{
@@ -260,6 +208,9 @@ label{
     padding-left: .35em;
 }
 
+#logo1{
+    display: none;
+}
 @media only screen and (max-width : 1169px) {
   body {
     font-size: 1em;
@@ -310,11 +261,32 @@ button {
 		position:fixed;
 		top: 50%;
 		background:purple;
-		right: 0;
+		right: 0px;
 		transform: rotate(-90deg);
 		}
-  .maxsix{
-  	visibility: hidden;
+    
+    .sentence{
+        visibility: hidden;
   }
+    .logo{
+        display: none;
+    }
+    #logo1 {
+        width: 4em;
+        display: block;
+        margin: 5em auto 0;
+    }
+    .slider{
+        position: relative;
+    }
+    .verticalAlign {
+    top:0%;
+    transform: translateY(50%);
+    position: relative;
+}
+    .blog{
+        display: none;
+    }
+   
 }
   
